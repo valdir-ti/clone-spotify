@@ -4,7 +4,7 @@ type PlayButtonProps = {
   type: string,
 }
 
-const PlayButton = ({type}: PlayButtonProps) => {
+function PlayButton({type}: PlayButtonProps) {
   return (
     <button
       className={`

@@ -1,7 +1,7 @@
 import Image from "next/image"
 import PlayButton from "./PlayButton"
 
-const Card = () => {
+function Card() {
   return (
     <a href="/" className="bg-white/5 p-3 relative group rounded-md hover:bg-white/10 flex flex-col gap-2">
         <Image src='/foo_fighters_album.jpg' className="w-full" alt='album image' width={104} height={104}/>
