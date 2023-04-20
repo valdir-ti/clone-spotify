@@ -1,5 +1,6 @@
 import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight } from 'lucide-react'
 import Album from './components/Album'
+import Card from './components/Card'
 
 export default function Home() {
   return (
@@ -59,6 +60,16 @@ export default function Home() {
             <Album title='Ride the lightning' image='/album.jpg' alt='album image'/>
             <Album title='Ride the lightning' image='/album.jpg' alt='album image'/>
 
+          </div>
+
+          <h2 className='font-semibold text-2xl mt-10'>Made for Valdir Silva</h2>
+
+          <div className='grid grid-cols-8 gap-4 mt-4'>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
           </div>
 
         </main>
