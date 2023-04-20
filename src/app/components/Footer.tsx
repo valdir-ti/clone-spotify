@@ -1,4 +1,4 @@
-import { Laptop2, LayoutList, Maximize2, Mic2, Plane, Repeat, Shuffle, SkipBack, SkipForward, Volume2 } from "lucide-react"
+import { Laptop2, LayoutList, Maximize2, Mic2, Play, Repeat, Shuffle, SkipBack, SkipForward, Volume2 } from "lucide-react"
 import Image from "next/image"
 
 function Footer() {
@@ -16,7 +16,7 @@ function Footer() {
               <Shuffle size={20} className='text-zinc-200'/>
               <SkipBack size={20} className='text-zinc-200'/>
               <button className='w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black ml-auto'>
-                <Plane />
+                <Play />
               </button>
               <SkipForward size={20} className='text-zinc-200'/>
               <Repeat size={20} className='text-zinc-200'/>
