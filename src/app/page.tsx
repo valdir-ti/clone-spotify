@@ -1,4 +1,4 @@
-import { Home as HomeIcon, Search, Library } from 'lucide-react'
+import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -26,9 +26,29 @@ export default function Home() {
               Your Library
             </a>
           </nav>
+
+          <nav className='mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-2'>
+            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Aniversário</a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>My Playlist #3</a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Hot Hits Brasil</a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Hits da Internet</a>
+            <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Daily Mix 4</a>
+          </nav>
+
         </aside>
         <main className="flex-1 p-6">
-          main
+
+          <div className='flex items-center gap-3'>
+            <button className='rounded-full bg-black/40 p-1'>
+              <ChevronLeft />
+            </button>
+            <button className='rounded-full bg-black/40 p-1'>
+              <ChevronRight />
+            </button>
+          </div>
+
+          <h1 className='font-semibold text-3xl mt-10'>Good Afternoon</h1>
+
         </main>
       </div>
       <div>
