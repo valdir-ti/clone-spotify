@@ -12,6 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link rel="icon" type="image/x-icon" href="/spotify.png"></link>
       <body className='bg-zinc-900 text-zinc-50'>{children}</body>
     </html>
   )
